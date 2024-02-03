@@ -3,7 +3,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #fcfefc;
+    background-color: #ffffff;
+    transition: background-color 2s ease;
 }
 
 #noButton {
@@ -21,17 +22,7 @@ body {
     font-family: 'Nunito';
     font-size: 50px;
     font-weight: bold;
-    color: #FFB6C1;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 0px;
-}
-
-.text {
-    font-family: 'Nunito';
-    font-size: 25px;
-    font-weight: bold;
-    color: #FFB6C1;
+    color: #ffffff;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
@@ -68,4 +59,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+img {
+    width: 300px;
+    height: auto;
 }
